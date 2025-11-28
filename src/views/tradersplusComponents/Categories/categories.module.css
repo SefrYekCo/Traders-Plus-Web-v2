@@ -1,0 +1,34 @@
+.container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.list {
+    width: 100%;
+    text-align: right;
+    background-color: #fff;
+    padding: 1rem;
+    margin-bottom: 2rem;
+   
+}
+
+.deleteIcon:hover {
+    color: red;
+    font-size: large;
+}
+
+.listItem {
+   direction: rtl;
+   
+}
+
+.actionsContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: max-content;
+}

@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/1685.bffd5b11.chunk.css","mappings":"AAAA,iCAII,oBAAqB,CAFrB,YAAa,CACb,qBAAsB,CAFtB,SAIJ","sources":["views/tradersplusComponents/addChannel.module.css"],"sourcesContent":[".formContainer{\n    width: 80%;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n}"],"names":[],"sourceRoot":""}

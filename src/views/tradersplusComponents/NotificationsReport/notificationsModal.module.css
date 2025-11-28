@@ -1,0 +1,19 @@
+.table{
+    width: 100%;
+    direction: rtl;
+}
+
+.table th{
+    text-align: right;
+}
+
+.table td{
+    text-align: right;
+}
+
+.correctsContainer{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

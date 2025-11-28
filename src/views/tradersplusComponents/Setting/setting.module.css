@@ -1,0 +1,85 @@
+.mainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+   
+}
+
+.notificationMainContainer{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.notificationMainContainer >div{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin: 1rem;
+}
+
+.notificationMainContainer p {
+    margin-left: 1rem;
+}
+
+.versionMainContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    width: 100%;
+}
+
+.versioningContainer{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 1rem;
+}
+.versioningContainer p{
+    margin: 0;
+    margin-left: .5rem;
+}
+
+.versioningContainer button{
+    margin-right: 3rem;
+}
+
+.badge{
+    width: max-content;
+    background-color: '#52c41a';
+    font-size: large;
+}
+
+.badge:hover{
+   background-color: green;
+}
+
+.ptag{
+    font-weight: bold;
+
+}
+
+.updateLink{
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.updateLink button{
+    border:none;
+    transition: all .3s ease;
+}
+
+.updateLink button:hover{
+    border:1px dashed black;
+    
+}
+
+.description{
+    text-align: right;
+    direction: rtl;
+    display: inline;
+}

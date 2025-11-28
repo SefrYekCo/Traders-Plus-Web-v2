@@ -1,0 +1,35 @@
+.showIcon{
+   margin-left: 10px;
+}
+
+.showIcon:hover{
+    font-size: large;
+}
+
+.input{
+    margin: .5rem 0;
+    text-align: right;
+    direction: rtl;
+}
+
+.textarea{
+    margin: .5rem 0;
+    resize: none;
+    height: 200px !important;
+    text-align: right;
+    direction: rtl;
+    padding-top: 1.5rem;
+}
+
+.emojiPickerContainer{
+    position: sticky;
+    top: 0;
+}
+
+.icon{
+    position: relative;
+    top: 40px;
+    left: 10px;
+    z-index: 2000;
+
+}

@@ -1,0 +1,10 @@
+.emojiContainer{
+    display:"block";
+    position:"absolute" ;
+    bottom:"100%"  ;
+    transition:"all 1s ease";
+}
+
+.emojiContainerHide{
+    display:"none";
+}

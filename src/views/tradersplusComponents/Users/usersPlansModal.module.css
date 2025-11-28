@@ -1,0 +1,12 @@
+.table{
+    width: 100%;
+    direction: rtl;
+}
+
+.table th{
+    text-align: right;
+}
+
+.table td{
+    text-align: right;
+}

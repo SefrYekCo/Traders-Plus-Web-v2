@@ -1,0 +1,198 @@
+.mainContainer{
+    width: 100%;
+   padding-bottom: 1rem;
+    min-height: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin: 0 !important;
+    justify-content: space-between;
+}
+
+.emptyChannel{
+    height: 100%;
+}
+
+.messagesContainer{
+    text-align: right;
+    /* background-color: rgb(202, 202, 202); */
+    background-color: skyblue;
+    margin: 1rem 0;
+    border-radius: 8px;
+    padding: .5rem 1rem;
+    direction: rtl;
+    display: flex;
+    flex-direction: column;
+    height: max-content;
+    width: 50%;
+}
+
+.messagesContainer p{
+    text-align: right;
+    margin: 5px;
+}
+
+.publisher{
+    color: #0e7cd0;
+    font-size: small;
+    font-weight: bold;
+}
+
+.content{
+    color: black;
+    width: 100%;
+    display: inline;
+    overflow-wrap: break-word;
+}
+
+.time{
+    color: #767676;
+    direction: rtl;
+    text-align: left;
+    align-self: flex-end;
+    font-size: small;
+    font-weight: bold;
+}
+
+.time span{
+color: black;
+
+}
+
+.showImage{
+    width: 100%;
+    height: 350px;
+    border-radius: .5rem;
+}
+
+.footerPart{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.title{
+    color: black ;
+    font-weight: bold;
+    text-decoration: none;
+    direction: rtl;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.link{
+    color: blue ;
+    text-decoration: none;
+    direction: rtl;
+    text-align: right;
+    margin-top: 10px;
+}
+
+.footerPart p{
+    margin-left: 1rem;
+}
+
+.sendMessageContainer{
+    display: flex;
+    width: 100%;
+    position: sticky;
+    bottom: .5rem;
+    height: 150px !important;
+}
+
+.inputsContainer{
+    width: 100%;
+    height: 100%;
+}
+
+.sendMessageTextarea{
+    resize: none;
+    height: 50% !important;
+   width: 100%;
+   text-align: right;
+   direction: rtl;
+   padding: .5rem 2.5rem;
+}
+
+.titleInput{
+    display: block !important;
+    height: 25%;
+   width: 100%;
+   border-radius: 1rem 1rem 0 0;
+   text-align: right;
+   direction: rtl;
+   padding: .5rem 1.5rem;
+}
+
+.linkInput{
+    display: block !important;
+    height: 25%;
+   width: 100%;
+   border-radius: 0 0 1rem 1rem;
+   text-align: right;
+   direction: rtl;
+   padding: .5rem 1.5rem;
+}
+
+.sendMessageContainer button{
+    height: 100%;
+    width: 10%;
+   border-radius: 1rem;
+}
+
+.sendMessageContainer input{
+    display: none;
+}
+
+.textareaContainer {
+    display: flex;
+    width: 100%;
+}
+
+.icon{
+    position:relative;
+    top: 32%;
+    left: 28px;
+    opacity: .5;
+    z-index: 50;
+    width: 0;
+}
+
+.searchInputContainer{
+    position: sticky;
+    top: 7.5rem;
+    width: 100%;
+    
+}
+
+.searchInput{
+    text-align: right;
+    direction: rtl;
+    border: none;
+    border-radius: 1rem;
+    width: 20%;
+    padding: .5rem;
+    box-shadow: 0px 10px 13px rgba(17, 38, 146, .1);
+}
+.searchInput:active{
+    border: none !important;
+}
+
+.searchInput::placeholder{
+    font-size: small;
+    opacity: .5;
+}
+
+.deleteIcon:hover{
+   font-size: large;
+}
+
+.sendMessageContainer input{
+    font-family: IRANSans;
+}
+
+.sendMessageContainer textarea{
+    font-family: IRANSans;
+}

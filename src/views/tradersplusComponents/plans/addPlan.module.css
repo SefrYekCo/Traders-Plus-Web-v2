@@ -1,0 +1,43 @@
+.container{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.container input{
+    margin: 1rem 0;
+    direction: rtl;
+}
+
+.typesContaienr{
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+}
+
+.typesMainContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.typesMainContainer h4{
+    align-self: flex-end;
+    margin: 1rem 0;
+}
+
+.submitBtn{
+    width: 20%;
+    align-self: flex-end;
+    margin-top: 2rem;
+}
+
+.textArea {
+    height: 200px !important;
+    width: 100%;
+    resize: none;
+    text-align: right;
+    margin-bottom: 1rem;
+    direction: rtl;
+}

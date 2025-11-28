@@ -1,0 +1,15 @@
+.btn{
+    width: 10%;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.input:first-child{
+    margin: .5rem 0;
+}
+
+.input:last-child{
+    margin: .5rem 0;
+    resize: none;
+    height: 80px;
+}

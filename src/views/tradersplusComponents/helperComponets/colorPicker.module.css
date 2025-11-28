@@ -1,0 +1,18 @@
+.compact{
+   display: flex;
+   
+   flex-direction: column;
+   align-items: center;
+    width: 100% !important;
+   
+}
+
+.compact div{
+    width: 100%;
+}
+
+.popover >div:last-child> div:last-child> div> div:first-child{
+    display: flex;
+    width: 300px;
+    flex-wrap: wrap;
+}

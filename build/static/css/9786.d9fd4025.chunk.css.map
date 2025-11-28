@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/9786.d9fd4025.chunk.css","mappings":"AAAA,kCAII,oBAAqB,CAFrB,YAAa,CACb,qBAAsB,CAFtB,SAIJ","sources":["views/tradersplusComponents/Categories/addCategory.module.css"],"sourcesContent":[".formContainer{\n    width: 80%;\n    display: flex;\n    flex-direction: column;\n    align-items: flex-end;\n}"],"names":[],"sourceRoot":""}

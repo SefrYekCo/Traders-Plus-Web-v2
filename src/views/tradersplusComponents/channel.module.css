@@ -1,0 +1,45 @@
+.header{
+    display: flex;
+    align-items: center;
+}
+
+.header h3{
+    font-size: 18px;
+    font-weight: bold;
+    direction: rtl;
+}
+
+.header p {
+    align-self: flex-end;
+}
+
+.header button::after{
+    position: absolute;
+    left: 10px;
+}
+
+/* .header i {
+    position: absolute;
+    left: 40px;
+} */
+
+.header p {
+    width: 50%;
+    text-align: right;
+}
+
+.body{
+    background-color: #f6f6f6;
+}
+
+.body a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.muteBTN{
+    width: max-content;
+    height: max-content ;
+    position: absolute;
+    left: 40px;
+}

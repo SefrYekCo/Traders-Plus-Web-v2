@@ -1,0 +1,52 @@
+.btn{
+  
+    color: white !important;
+    font-weight: bold;
+}
+
+.colorPickerMainContainer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-top: 2rem;
+    align-items: center;
+    flex-direction: column;
+}
+
+.colorpickerContainer{
+    display: flex;
+    width: 100%;
+   
+    margin: 0 1rem;
+    align-items: center;
+}
+
+.colorpickerContainer div{
+    width: 80%;
+    
+}
+.colorpickerContainer p{
+    text-align: right;
+}
+
+.modal input{
+    margin: 8px 0;
+}
+
+.space select{
+    padding: 5px;
+    border: .5px solid silver;
+    cursor: pointer;
+}
+
+.space select:disabled{
+    background-color: #ccc;
+    cursor: default;
+}
+
+.label {
+    direction: rtl !important;
+    text-align: right !important ;
+    margin-top: .5rem;
+    float: right;
+}

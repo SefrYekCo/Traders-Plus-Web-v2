@@ -1,0 +1,145 @@
+.mainContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.container{
+    width: 90%;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+}
+
+.link{
+    text-decoration: none;
+    color: rgba(44, 56, 74, 0.681);
+    font-size: small;
+}
+
+.link:hover{
+    color: #000000;
+}
+
+.container {
+    align-self: center;
+    display: flex;
+    background-color: #fff;
+    border: 1px solid silver;
+    border-radius: 10px;
+    justify-content: space-around;
+    padding: 20px;
+    margin: 1rem 0 ;
+    width: 90%;
+    height: max-content;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.container img {
+    width: 450px;
+    
+}
+
+.detailsContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid silver;
+    border-radius: 10px;
+    width: 60%;
+    padding: 1rem 1rem 0 1rem;
+    justify-content: space-between;
+}
+
+.detailsContainer h3 {
+    color: #1a73e8;
+    font-weight: bold;
+}
+
+.detailsContainer p {
+    font-size: medium;
+    margin-top: 0.5rem;
+}
+
+.detailsContainer a span{
+    color: orange;
+    font-weight: bold;
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+ 
+    text-align: center;
+    width: max-content;
+}
+
+.price{
+    display: inline-block;
+    background-color: #34a853;
+    padding: 7px 16px;
+    color: #fff !important;
+    font-weight: bold;
+    border-radius: 5px;
+    text-align: center;
+    
+}
+
+.detailsContainer a{
+    text-decoration: none;
+    color: silver;
+    width: 70%;
+    overflow: hidden;
+}
+
+
+.btnContainer a{
+    text-decoration: none;
+    text-align: center;
+    color: #fff;
+    display: inline-block;
+    border: none;
+    font-weight: bold;
+    padding: 7px 16px;
+    border-radius: 5px;
+    background-color: #1a73e8;
+    transition: all .2s ease;
+    box-shadow: rgba(0, 0, 0, .09) 0 2px 1px , rgba(0, 0, 0, 0.09) 0 4px 2px ,
+    rgba(0, 0, 0, 0.09) 0 8px 4px , rgba(0, 0, 0, 0.09) 0 16px 8px ,
+    rgba(0, 0, 0, 0.09) 0 32px 16px;
+    width: 60%;
+}
+
+.btnContainer a:hover{
+    
+    background-color: #0b499b;
+}
+
+.activationContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+
+.buttonContainer{
+    align-self: flex-end;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: max-content;
+    margin-top: 1rem;
+}
+
+.clickContainer{
+    display: flex;
+    margin-top: 1rem;
+    align-items: center;
+    
+}
+
+.clickContainer p {
+    margin: 0;
+}

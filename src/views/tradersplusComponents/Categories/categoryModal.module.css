@@ -1,0 +1,12 @@
+.btn{
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    color: blue;
+    font-size: large;
+}
+
+.input{
+    margin: .5rem 0;
+}

@@ -1,0 +1,18 @@
+@font-face {
+    font-family: "IRANSans";
+    src: url("./fonts/irainsansmobile_medium_e.ttf") format("truetype");
+    
+    font-weight: normal;
+    font-size: normal;
+  } 
+  
+  @font-face {
+    font-family: "IRANSansFarsi";
+    src: url("./fonts/irainsansmobile_medium_f.ttf") format("truetype");
+    font-weight: normal;
+    font-size: normal;
+  } 
+
+  *{
+      font-family: IRANSansFarsi;
+  }

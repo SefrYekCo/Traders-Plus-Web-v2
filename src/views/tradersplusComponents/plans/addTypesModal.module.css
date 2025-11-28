@@ -1,0 +1,32 @@
+.btn{
+    width: 200px;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.input{
+    margin: .5rem 0;
+}
+
+.typeContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 200px;
+    min-height: 200px;
+    text-align: right;
+    margin: 1rem 1rem;
+}
+
+.amount{
+    font-weight: bolder;
+}
+
+.deleteBtn{
+    background-color: #ffffff;
+    border: none;
+    height: max-content;
+}
