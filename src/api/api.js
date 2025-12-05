@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = process.env.REACT_APP_MODE === "production" ? 'https://api.traderzplus.ir/api/v1' : 'http://tradersplus-qa.sefryek.com:5000/api/v1'
+const baseURL = process.env.REACT_APP_MODE === "production" ? 'https://apinew.traderzplus.ir/api/v1' : 'http://tradersplus-qa.sefryek.com:5000/api/v1'
 
 const token = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2MTQxOTIwNzMxMjg3ZTUyZWFlZDNiOWMiLCJtb2JpbGVOdW1iZXIiOiIwOTM2NzIzMTMzNyIsImlzcyI6InRyYWRlcnNwbHVzIiwiZXhwIjoxMjAwMDAwMDAwMDAwLCJpYXQiOjE2NDcyMTE5ODB9.mT7iXSLt0_sTcZCFDYz_koYtDu26ddnbNDt_aKkMQAM" 
 
